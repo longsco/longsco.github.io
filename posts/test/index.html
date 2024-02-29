@@ -55,7 +55,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="hello world" />
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MVEYCXQEB"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-7MVEYCXQEB', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="hello world" />
 <meta property="og:description" content="hello, world!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://longsco.github.io/posts/test/" /><meta property="article:section" content="posts" />
@@ -185,6 +196,11 @@
                 </a>
             </li>
             <li>
+                <a href="https://longsco.github.io/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://longsco.github.io/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
@@ -279,27 +295,7 @@
     </li>
 </ul>
 
-  </footer><div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "longsco" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+  </footer>
 </article>
     </main>
     
